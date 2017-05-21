@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		336D983998748CE4DE3D9895 /* Pods_RanDoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7AA7CFCFC938ED69EB3A6C /* Pods_RanDoe.framework */; };
 		62B9E8C61ED17F8F000C9D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B9E8C51ED17F8F000C9D1B /* AppDelegate.swift */; };
 		62B9E8C81ED17F8F000C9D1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B9E8C71ED17F8F000C9D1B /* ViewController.swift */; };
 		62B9E8CB1ED17F8F000C9D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B9E8C91ED17F8F000C9D1B /* Main.storyboard */; };
 		62B9E8CD1ED17F8F000C9D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B9E8CC1ED17F8F000C9D1B /* Assets.xcassets */; };
 		62B9E8D01ED17F8F000C9D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B9E8CE1ED17F8F000C9D1B /* LaunchScreen.storyboard */; };
 		62B9E8DB1ED17F90000C9D1B /* RanDoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B9E8DA1ED17F90000C9D1B /* RanDoeTests.swift */; };
+		D48F0140C82F2E43CA81512C /* Pods_RanDoeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B9639F071AA06BD74F199D /* Pods_RanDoeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B0F71CEA1178A828CF55548 /* Pods-RanDoeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RanDoeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RanDoeTests/Pods-RanDoeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		363CE405A7701824C91E7575 /* Pods-RanDoeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RanDoeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RanDoeTests/Pods-RanDoeTests.release.xcconfig"; sourceTree = "<group>"; };
 		62B9E8C21ED17F8F000C9D1B /* RanDoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RanDoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B9E8C51ED17F8F000C9D1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62B9E8C71ED17F8F000C9D1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		62B9E8D61ED17F8F000C9D1B /* RanDoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RanDoeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B9E8DA1ED17F90000C9D1B /* RanDoeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RanDoeTests.swift; sourceTree = "<group>"; };
 		62B9E8DC1ED17F90000C9D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B4EDD73C0E069E0782AB9FA /* Pods-RanDoe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RanDoe.release.xcconfig"; path = "Pods/Target Support Files/Pods-RanDoe/Pods-RanDoe.release.xcconfig"; sourceTree = "<group>"; };
+		C7B9639F071AA06BD74F199D /* Pods_RanDoeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RanDoeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA7AA7CFCFC938ED69EB3A6C /* Pods_RanDoe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RanDoe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0643ABB28CBB8C8BDBBB2AD /* Pods-RanDoe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RanDoe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RanDoe/Pods-RanDoe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				336D983998748CE4DE3D9895 /* Pods_RanDoe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48F0140C82F2E43CA81512C /* Pods_RanDoeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		568EE09DC215A073DBEE0BFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0643ABB28CBB8C8BDBBB2AD /* Pods-RanDoe.debug.xcconfig */,
+				9B4EDD73C0E069E0782AB9FA /* Pods-RanDoe.release.xcconfig */,
+				2B0F71CEA1178A828CF55548 /* Pods-RanDoeTests.debug.xcconfig */,
+				363CE405A7701824C91E7575 /* Pods-RanDoeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		62B9E8B91ED17F8F000C9D1B = {
 			isa = PBXGroup;
 			children = (
 				62B9E8C41ED17F8F000C9D1B /* RanDoe */,
 				62B9E8D91ED17F90000C9D1B /* RanDoeTests */,
 				62B9E8C31ED17F8F000C9D1B /* Products */,
+				568EE09DC215A073DBEE0BFF /* Pods */,
+				BEB8F06E2939DD4CB7F962E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +119,15 @@
 			path = RanDoeTests;
 			sourceTree = "<group>";
 		};
+		BEB8F06E2939DD4CB7F962E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA7AA7CFCFC938ED69EB3A6C /* Pods_RanDoe.framework */,
+				C7B9639F071AA06BD74F199D /* Pods_RanDoeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62B9E8DF1ED17F90000C9D1B /* Build configuration list for PBXNativeTarget "RanDoe" */;
 			buildPhases = (
+				67F0725F7E116DD9CFCA253D /* [CP] Check Pods Manifest.lock */,
 				62B9E8BE1ED17F8F000C9D1B /* Sources */,
 				62B9E8BF1ED17F8F000C9D1B /* Frameworks */,
 				62B9E8C01ED17F8F000C9D1B /* Resources */,
+				A94ED898488E693143325249 /* [CP] Embed Pods Frameworks */,
+				0856FA21EF45702DA5B9955E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62B9E8E21ED17F90000C9D1B /* Build configuration list for PBXNativeTarget "RanDoeTests" */;
 			buildPhases = (
+				F9A69D3A099F1C7399CEE5C3 /* [CP] Check Pods Manifest.lock */,
 				62B9E8D21ED17F8F000C9D1B /* Sources */,
 				62B9E8D31ED17F8F000C9D1B /* Frameworks */,
 				62B9E8D41ED17F8F000C9D1B /* Resources */,
+				9A5C4EEE4D1E29648FE20E3F /* [CP] Embed Pods Frameworks */,
+				2E836B70BADF5F1D5585F58C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +229,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0856FA21EF45702DA5B9955E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RanDoe/Pods-RanDoe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E836B70BADF5F1D5585F58C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RanDoeTests/Pods-RanDoeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67F0725F7E116DD9CFCA253D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A5C4EEE4D1E29648FE20E3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RanDoeTests/Pods-RanDoeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A94ED898488E693143325249 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RanDoe/Pods-RanDoe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9A69D3A099F1C7399CEE5C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		62B9E8BE1ED17F8F000C9D1B /* Sources */ = {
@@ -327,6 +458,7 @@
 		};
 		62B9E8E01ED17F90000C9D1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0643ABB28CBB8C8BDBBB2AD /* Pods-RanDoe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RanDoe/Info.plist;
@@ -338,6 +470,7 @@
 		};
 		62B9E8E11ED17F90000C9D1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4EDD73C0E069E0782AB9FA /* Pods-RanDoe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RanDoe/Info.plist;
@@ -349,6 +482,7 @@
 		};
 		62B9E8E31ED17F90000C9D1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B0F71CEA1178A828CF55548 /* Pods-RanDoeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RanDoeTests/Info.plist;
@@ -361,6 +495,7 @@
 		};
 		62B9E8E41ED17F90000C9D1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363CE405A7701824C91E7575 /* Pods-RanDoeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RanDoeTests/Info.plist;
@@ -390,6 +525,7 @@
 				62B9E8E11ED17F90000C9D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62B9E8E21ED17F90000C9D1B /* Build configuration list for PBXNativeTarget "RanDoeTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +534,7 @@
 				62B9E8E41ED17F90000C9D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
