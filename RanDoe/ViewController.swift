@@ -7,7 +7,8 @@
 //
 
 import UIKit
-import AFNetworking
+import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
@@ -21,21 +22,19 @@ class ViewController: UIViewController {
         let defaultAction = UIAlertAction(title: "OK", style: .Default, handler: nil)
         alertController.addAction(defaultAction)
         
+        //Monitor Net
+        let net = NetworkReachabilityManager()
+        net?.startListening()
         
-        //Internet Watch
-        AFNetworkReachabilityManager.sharedManager().setReachabilityStatusChangeBlock { (status: AFNetworkReachabilityStatus) -> Void in
-            switch status {
-            case .NotReachable:
+        net?.listener = {status in
+            
+            if  net?.isReachable == false {
+                print("no connection")
                 self.presentViewController(alertController, animated: true, completion: nil)
-                print("Not reachable")
-            case .ReachableViaWiFi, .ReachableViaWWAN:
-                print("Reachable")
-            case .Unknown:
-                print("Unknown")
+                
             }
             
         }
-        AFNetworkReachabilityManager.sharedManager().startMonitoring()
 
         
     }
