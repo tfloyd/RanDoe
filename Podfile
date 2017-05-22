@@ -10,7 +10,7 @@ target 'RanDoe' do
   pod 'SwiftyJSON', '~> 2.3.2'
   pod 'Alamofire', '~> 3.5.x'
   #pod 'HanekeSwift', '~> 0.10.1'
-  pod 'AlamofireImage', '~> 2.5.0'
+  #pod 'AlamofireImage', '~> 2.5.0'
   
   target 'RanDoeTests' do
     inherit! :search_paths

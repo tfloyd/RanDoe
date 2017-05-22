@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		336D983998748CE4DE3D9895 /* Pods_RanDoe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7AA7CFCFC938ED69EB3A6C /* Pods_RanDoe.framework */; };
-		625A7B011ED18A8B00ACBBF8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A7B001ED18A8B00ACBBF8 /* TableViewController.swift */; };
+		625A7B011ED18A8B00ACBBF8 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A7B001ED18A8B00ACBBF8 /* UserTableViewController.swift */; };
 		62B9E8C61ED17F8F000C9D1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B9E8C51ED17F8F000C9D1B /* AppDelegate.swift */; };
-		62B9E8C81ED17F8F000C9D1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B9E8C71ED17F8F000C9D1B /* ViewController.swift */; };
+		62B9E8C81ED17F8F000C9D1B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B9E8C71ED17F8F000C9D1B /* UserViewController.swift */; };
 		62B9E8CB1ED17F8F000C9D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B9E8C91ED17F8F000C9D1B /* Main.storyboard */; };
 		62B9E8CD1ED17F8F000C9D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B9E8CC1ED17F8F000C9D1B /* Assets.xcassets */; };
 		62B9E8D01ED17F8F000C9D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B9E8CE1ED17F8F000C9D1B /* LaunchScreen.storyboard */; };
@@ -31,10 +31,10 @@
 /* Begin PBXFileReference section */
 		2B0F71CEA1178A828CF55548 /* Pods-RanDoeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RanDoeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RanDoeTests/Pods-RanDoeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		363CE405A7701824C91E7575 /* Pods-RanDoeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RanDoeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RanDoeTests/Pods-RanDoeTests.release.xcconfig"; sourceTree = "<group>"; };
-		625A7B001ED18A8B00ACBBF8 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		625A7B001ED18A8B00ACBBF8 /* UserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
 		62B9E8C21ED17F8F000C9D1B /* RanDoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RanDoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B9E8C51ED17F8F000C9D1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		62B9E8C71ED17F8F000C9D1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62B9E8C71ED17F8F000C9D1B /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		62B9E8CA1ED17F8F000C9D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62B9E8CC1ED17F8F000C9D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62B9E8CF1ED17F8F000C9D1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				62B9E8C51ED17F8F000C9D1B /* AppDelegate.swift */,
-				62B9E8C71ED17F8F000C9D1B /* ViewController.swift */,
-				625A7B001ED18A8B00ACBBF8 /* TableViewController.swift */,
+				625A7B001ED18A8B00ACBBF8 /* UserTableViewController.swift */,
+				62B9E8C71ED17F8F000C9D1B /* UserViewController.swift */,
 				62B9E8C91ED17F8F000C9D1B /* Main.storyboard */,
 				62B9E8CC1ED17F8F000C9D1B /* Assets.xcassets */,
 				62B9E8CE1ED17F8F000C9D1B /* LaunchScreen.storyboard */,
@@ -332,8 +332,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62B9E8C81ED17F8F000C9D1B /* ViewController.swift in Sources */,
-				625A7B011ED18A8B00ACBBF8 /* TableViewController.swift in Sources */,
+				62B9E8C81ED17F8F000C9D1B /* UserViewController.swift in Sources */,
+				625A7B011ED18A8B00ACBBF8 /* UserTableViewController.swift in Sources */,
 				62B9E8C61ED17F8F000C9D1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
